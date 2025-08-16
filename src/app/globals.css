@@ -24,3 +24,204 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.msgBox {
+    background: #101010cc;
+    border: 1px solid #262626;
+    border-radius: 35px;
+}
+
+
+.think-section {
+    background: #101010 url("../assets/bg-think.png") 50% / cover no-repeat;
+    min-height: 100vh;
+}
+
+.tree li {
+    float: left;
+    text-align: center;
+    list-style-type: none;
+}
+
+.rounded-dots {
+    float: none;
+    z-index: 2;
+    background: #101010;
+    border: none;
+    width: auto;
+    position: absolute;
+    top: 116px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.rounded-left-after {
+    z-index: 1;
+    background-color: #101010;
+    width: 2.5rem;
+    margin-top: -1px;
+    margin-left: -1px;
+    position: absolute;
+    top: 0;
+    left: 55%;
+    transform: translate(-50%);
+}
+
+.rounded-left, .rounded-left-after {
+    height: 3.75rem;
+    display: inline-block;
+}
+
+.rounded-right {
+    border-top: 2px dashed #00ce44;
+    border-left: 0;
+    border-right: 2px dashed #00ce44;
+    border-radius: 0 70px 0 0;
+    width: 36px;
+    height: 3.75rem;
+    display: inline-block;
+}
+
+
+.ic-green-arrow, .rounded-right-after {
+    display: inline-block;
+    position: absolute;
+    transform: translate(-50%);
+}
+
+
+
+
+
+.tree ul li ul li:first-child:after, .tree ul li ul li:first-child:before, .tree ul li ul li:last-child:after, .tree ul li ul li:last-child:before {
+    height: auto;
+}
+
+
+.tree li:first-child:before, .tree li:last-child:after {
+    border: 0;
+}
+
+
+.tree li:after, .tree li:before {
+    content: "";
+    border-top: 2px dashed #00ce44;
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+
+    
+    right: 50%;
+}
+
+
+.start-circle {
+    z-index: 1;
+    background: linear-gradient(#00ce44, #056324);
+    border: 5px solid #101010;
+    border-radius: 100%;
+    width: 26.2299px;
+    height: 26.2299px;
+    display: inline-block;
+    position: absolute;
+    top: 36px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.rounded-left, .rounded-left-after {
+    height: 3.75rem;
+    display: inline-block;
+}
+
+
+.rounded-left, .rounded-left-after {
+    height: 3.75rem;
+    display: inline-block;
+}
+
+.rounded-left {
+    border-top: 2px dashed #00ce44;
+    border-left: 2px dashed #00ce44;
+    border-right: 0;
+    border-radius: 70px 0 0;
+    width: 36px;
+}
+
+.rounded-right-after {
+    z-index: 1;
+    background-color: #101010;
+    width: 2.5rem;
+    height: 3.75rem;
+    margin-top: -1px;
+    margin-left: -35px;
+    top: 0;
+    left: 55%;
+}
+
+
+.tree li, .tree ul {
+    transition: all .5s;
+}
+
+.tree ul {
+    position: relative;
+}
+
+
+.tree ul ul:before {
+    content: "";
+    border-left: 2px dashed #00ce44;
+    width: 0;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.tree li:after {
+    border-left: 2px dashed #00ce44;
+    left: 50%;
+    right: auto;
+}
+
+.tree li:after, .tree li:before {
+    content: "";
+    border-top: 2px dashed #00ce44;
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 50%;
+}
+
+.cc-line {
+    z-index: 3;
+    border-right: 2px dashed #00ce44;
+    height: 18px;
+    display: inline-block;
+    position: absolute;
+    top: -20px;
+    left: 50.3%;
+    transform: translate(-50%);
+}
+.tree li a {
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    display: inline-flex
+;
+}
+
+
+.tree li:after, .tree li:before {
+    content: "";
+    border-top: 2px dashed #00ce44;
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 50%;
+}
